@@ -35,7 +35,7 @@ h1{
     width: 80%;
 }
 
-.with-border{
+.width-border{
     border-left: 4px solid;
     border-radius: 5px;
     border-image: linear-gradient(blue, purple);

@@ -1,5 +1,7 @@
 body{
     font-family: 'Nunito Sans', sans-serif;
+    margin: 0%;
+    padding: 0%;
 }
 
 h1{
@@ -33,7 +35,7 @@ h1{
     width: 80%;
 }
 
-.half-width h1{
+.with-border{
     border-left: 4px solid;
     border-radius: 5px;
     border-image: linear-gradient(blue, purple);
@@ -73,3 +75,44 @@ h1{
     padding-left: 50px;
 }
 
+.mission-statement-1{
+    background-image: url("images/shapes/shape-1.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 200px;
+}
+
+.mission-statement-2{
+    background-image: url("images/shapes/shape-1.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 200px;
+}
+
+.new-font{
+    font-family: 'Vujahday Script', cursive;
+}
+
+
+h2{
+    font-size: 50px;
+}
+
+.footer-font{
+    font-family: 'Dancing Script', cursive;
+}
+
+h3{
+    font-size: 30px;
+    color: white;
+}
+
+footer{
+    background-color: black;
+    height: 100px;
+    color: white;
+}
+
+.red{
+    color: rgb(235, 97, 97);
+}
